@@ -4,6 +4,11 @@ Light Table Playground
 Issues and wiki for the Light Table Playground
 
 #Changes
+
+##0.4.4
+
+* FIX: remove spurious print
+
 ##0.4.3
 
 * FIX: add /etc/paths to path discover for OSX
