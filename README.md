@@ -4,6 +4,16 @@ Light Table Playground
 Issues and wiki for the Light Table Playground
 
 #Changes
+##0.4.3
+
+* FIX: add /etc/paths to path discover for OSX
+* FIX: html eval stopped working
+* FIX: don't self-pair if prev char is the same #508
+* FIX: url bar doesn't reflect hash change. #501
+* FIX: if there isn't a browser available on HTML eval, create one
+* FIX: auto-complete after . and no typing will insert at the top of the file
+* FIX: exclude pattern check didn't include / for dirs
+* FIX: windows doesn't have all the unicode arrows #450
 
 ##0.4.2
 
