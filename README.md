@@ -5,6 +5,14 @@ Issues and wiki for the Light Table Playground
 
 #Changes
 
+##0.4.5
+
+* FIX: have clojure.test/\*test-output\* show in the console
+* FIX: force disabling the cache #538
+* FIX: bugs in search #525
+* FIX: responses larger than a single tcp frame aren't handled properly #539
+* FIX: auto-detect line endings was replacing "\r\n" with "\n" #359
+
 ##0.4.4
 
 * FIX: remove spurious print
