@@ -8,13 +8,13 @@ Issues and wiki for the Light Table Playground
 ##0.4.6
 
 * FIX: Refresh browser is hard-bound to cmd-R instead of meta-R #560
-* ADDED: added in Sass highlighting
+* ADDED: added in Sass highlighting (#493 related)
 * ADDED: Comment, uncomment, and toggle comment line(s) commands #355, #540
-* ADDED: Indent, unindent, and smart indent line(s) commands (#493 related)
+* ADDED: Indent, unindent, and smart indent line(s) commands
 * ADDED: Commands for zoom in, zoom out, zoom reset for the LT window
 * UPDATED: Vim mode
 * UPDATED: All CodeMirror language modes
-
+* 
 ##0.4.5
 
 * FIX: have clojure.test/\*test-output\* show in the console
