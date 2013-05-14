@@ -5,6 +5,11 @@ Issues and wiki for the Light Table Playground
 
 #Changes
 
+##0.4.7
+
+* FIX: ContentWindow vs window distinction #570
+* FIX: Race condition that caused cljs to intermittently fail #559
+
 ##0.4.6
 
 * FIX: Refresh browser is hard-bound to cmd-R instead of meta-R #560
