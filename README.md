@@ -5,6 +5,11 @@ Issues and wiki for the Light Table Playground
 
 #Changes
 
+##0.4.8
+
+* FIX: TCP message splitting issue #575
+* FIX: ipython on windows issues #576
+
 ##0.4.7
 
 * FIX: ContentWindow vs window distinction #571
