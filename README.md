@@ -5,6 +5,13 @@ Issues and wiki for the Light Table Playground
 
 #Changes
 
+##0.4.10
+
+* FIX: on background delete don't recalculate the entire workspace (monitoring performance)
+* FIX: fix "TypeError: Cannot call method 'indexOf' of undefined" during background delete
+* FIX: filter version check url timeouts from the console
+* FIX: really long return values throw parse errors.
+
 ##0.4.9
 
 * FIX: bad push of 0.4.8
