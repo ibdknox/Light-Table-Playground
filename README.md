@@ -5,6 +5,10 @@ Issues and wiki for the Light Table Playground
 
 #Changes
 
+##0.4.11
+
+* FIX: Browser JS eval on windows
+
 ##0.4.10
 
 * FIX: on background delete don't recalculate the entire workspace (monitoring performance)
