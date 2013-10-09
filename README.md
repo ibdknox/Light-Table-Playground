@@ -5,6 +5,20 @@ Issues and wiki for the Light Table Playground
 
 #Changes
 
+##0.5.5
+
+* FIX: allow skins to use the default scrollbar style
+* FIX: println does not work in console when called from Compojure routes fixed in latest #808
+* FIX: LightTable 0.5.4 from archive not starting on Linux 64-bit fixed in latest #810
+* FIX: some shortcuts don't work properly fixed in latest #802
+* FIX: print does not behave like println or pprint fixed in latest #812
+* FIX: Unable to load org.clojure/core.memoize library 0.5.3+ fixed in latest #794
+* FIX: Unable to set! *unchecked-math* fixed in latest #804
+* FIX: Watches triggered from outside their own namespace do not update #817
+* FIX: Emacs mode doesn't allow tab auto-completion #768
+* CHANGED: Clojure clients now use nREPL
+* ADDED: Connect to a remote nREPL server
+
 ##0.5.4
 
 * FIX: Save-all is saving un-modified files #771
