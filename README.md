@@ -5,6 +5,11 @@ Issues and wiki for the Light Table Playground
 
 #Changes
 
+##0.5.6
+
+* FIX: handle massive numbers of messages from nrepl without blocking
+* ADDED: Clojure prints can now stream, allowing you to (print) and see the result without flushing.
+
 ##0.5.5
 
 * FIX: allow skins to use the default scrollbar style
