@@ -5,6 +5,10 @@ Issues and wiki for the Light Table Playground
 
 #Changes
 
+##0.5.8
+
+* FIX: On Windows using a menu item would eventually cause a crash.
+
 ##0.5.7
 
 * FIX: Exceptions in menu items can theoretically crash LT. #837
