@@ -5,6 +5,20 @@ Issues and wiki for the Light Table Playground
 
 #Changes
 
+##0.5.7
+
+* FIX: Exceptions in menu items can theoretically crash LT. #837
+* FIX: Remove unicode BOM on file open #826
+* FIX: Failed saves popup a warning #519
+* FIX: behavior specificity ordering issue
+* FIX: properly escape searcher results #834
+* FIX: allow ctrl-space to be overridden on mac #835
+* FIX: in the case of constant nrepl messages some would occassionally get dropped
+* CHANGED: don't enable highlight line by default, due to performance issues
+* ADDED: `App: add to the global ENV for processes` behavior that merges a map of vars into the environment when clients are started.
+* ADDED: try to reflect keybindings in menus on OSX
+* UPDATED: latest CodeMirror
+
 ##0.5.6
 
 * FIX: handle massive numbers of messages from nrepl without blocking
