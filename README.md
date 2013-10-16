@@ -5,6 +5,16 @@ Issues and wiki for the Light Table Playground
 
 #Changes
 
+##0.5.9
+
+* FIX: when you remove the expression being watched, remove the watch
+* FIX: don't expand watches when you type to the left or right of them
+* FIX: Opening the docs and then closing them will close the created tabset if it's the only tab in it
+* FIX: Allow both {:- {:app ["key"]}} and {:- {:app {"key" [..]}}} for keymap removal
+* FIX: iPython figures now auto-close
+* ADDED: Evaling a file or multiple expressions in python will now return results for each expression found
+* ADDED: Basic paredit commands! `Paredit: Grow right`, `Paredit: Grow left`, `Paredit: Shrink right`, `Paredit: Shrink left`, `Paredit: Select expression`, `Paredit: Clear selection and return cursor`
+
 ##0.5.8
 
 * FIX: On Windows using a menu item would eventually cause a crash.
