@@ -5,6 +5,13 @@ Issues and wiki for the Light Table Playground
 
 #Changes
 
+##0.5.11
+
+* FIX: Path with spaces prevent the Clojure client from working on windows
+* FIX: remote nRepl prints weren't always reliable
+* FIX: in remote nRepls it was possible to try to send to disconnected clients
+* UPDATED: lein-light-nrepl 0.0.4
+
 ##0.5.10
 
 * FIX: Watches would send to the wrong client in some remote nrepl scenarios
