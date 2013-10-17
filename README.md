@@ -5,6 +5,10 @@ Issues and wiki for the Light Table Playground
 
 #Changes
 
+##0.5.10
+
+* FIX: Watches would send to the wrong client in some remote nrepl scenarios
+
 ##0.5.9
 
 * FIX: when you remove the expression being watched, remove the watch
