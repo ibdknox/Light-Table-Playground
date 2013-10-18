@@ -5,6 +5,11 @@ Issues and wiki for the Light Table Playground
 
 #Changes
 
+##0.5.12
+
+* FIX: Don't try to handle keys without full information #849
+* ADDED: `App: Run commands on start` behavior to let you run whatever when LT is opened. I.e. make full screen, toggle the workspace tree, etc.
+
 ##0.5.11
 
 * FIX: Path with spaces prevent the Clojure client from working on windows
