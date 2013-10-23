@@ -5,6 +5,12 @@ Issues and wiki for the Light Table Playground
 
 #Changes
 
+##0.5.15
+
+* FIX: if no documentation is found report that in the statusbar and don't show empty blocks
+* FIX: requesting docs from a Clojure file outside of a project doesn't load in Clojure.core
+* UPDATED: lein-light-nrepl 0.0.6
+
 ##0.5.14
 
 * FIX: only Clojure/ClojureScript should currently have the `:docable` tag
