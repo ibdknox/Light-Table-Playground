@@ -5,6 +5,15 @@ Issues and wiki for the Light Table Playground
 
 #Changes
 
+##0.5.13
+
+* FIX: Clicking the connections menu item should toggle the connections pane
+* ADDED: Parameter help for the `App: Run command on start` behaviors
+* ADDED: Inline documentation for Clojure/ClojureScript (right click, or `Docs: Toggle documentation at cursor`)
+* ADDED: Documentation search for Clojure/ClojureScript (view -> Language docs, `Docs: Search language docs`)
+* ADDED: Julia syntax highlighting
+* UPDATED: lein-light-nrepl 0.0.5
+
 ##0.5.12
 
 * FIX: Don't try to handle keys without full information #849
