@@ -5,6 +5,11 @@ Issues and wiki for the Light Table Playground
 
 #Changes
 
+##0.5.14
+
+* FIX: only Clojure/ClojureScript should currently have the `:docable` tag
+* FIX: css bug that causes doc search to disappear
+
 ##0.5.13
 
 * FIX: Clicking the connections menu item should toggle the connections pane
