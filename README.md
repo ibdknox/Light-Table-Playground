@@ -5,6 +5,26 @@ Issues and wiki for the Light Table Playground
 
 #Changes
 
+##0.5.17
+
+* ADDED: `Eval: Eval custom expression in editor` command
+* ADDED: `Editor: Custom watch selection` command
+* ADDED: edn as a file type
+* ADDED: `Editor: Select line` command
+* UPDATED: lein-light-nrepl 0.0.6
+
+##0.5.16
+
+* FIX: paredit didn't correctly handle tokens with one character at the end of a line
+* FIX: alt-key bindings on Linux don't work #863
+* FIX: python watches were broken in certain cases #856
+* FIX: try to pick up proxy settings for downloading updates #841
+* FIX: folder already renamed popup doesn't go away #855
+* CHANGED: In vim mode ",/" is no longer bound to :nohlsearch
+* ADDED: Clojure mode can now color (comment ...) forms as comments. Use the `Clojure: Highlight comment forms as comments` behavior
+* ADDED: `Vim: :nohlsearch` command
+* ADDED: `Instarepl: set start content` behavior, set it to "" to remove the intro. #827
+
 ##0.5.15
 
 * FIX: if no documentation is found report that in the statusbar and don't show empty blocks
