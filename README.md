@@ -20,7 +20,7 @@ Issues and wiki for the Light Table Playground
 * ADDED: xml file type
 * ADDED: :editor.keys.hinting.active tag to allow you to override hinting keybindings
 * ADDED: plugins can be loaded from the plugins/ dir
-* ADDED: __ID__ and __SELECTION\*__ for custom watches
+* ADDED: \_\_ID\_\_ and \_\_SELECTION\*\_\_ for custom watches
 * UPDATED: CodeMirror vim mode
 * UPDATED: latest CodeMirror
 * UPDATED: CLJS 2030
