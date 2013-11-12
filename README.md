@@ -5,6 +5,10 @@ Issues and wiki for the Light Table Playground
 
 #Changes
 
+##0.5.20
+
+* FIX: workaround for tools.reader dependency issues in Clojure projects
+
 ##0.5.19
 
 * FIX: merge :repl-options :init correctly if it's in your project.clj
